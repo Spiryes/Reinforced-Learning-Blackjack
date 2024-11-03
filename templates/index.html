@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blackjack Game with AI</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="game-container">
+        <!-- Dealer's section -->
+        <div id="dealer-hand" class="hand">
+            <h2>Dealer's Hand</h2>
+            <div id="dealer-cards" class="cards"></div>
+            <div id="dealer-score" class="score"></div>
+            <div id="dealer-result" class="result"></div>
+        </div>
+
+        <!-- Player's section -->
+        <div id="player-hand" class="hand">
+            <h2>Your Hand</h2>
+            <div id="player-cards" class="cards"></div>
+            <div id="player-score" class="score"></div>
+            <div id="player-result" class="result"></div>
+        </div>
+
+        <!-- AI Player's section -->
+        <div id="ai-hand" class="hand">
+            <h2>AI Player's Hand</h2>
+            <div id="ai-cards" class="cards"></div>
+            <div id="ai-score" class="score"></div>
+            <div id="ai-result" class="result"></div>
+        </div>
+
+        <!-- Game controls -->
+        <div class="controls">
+            <button id="hit-button">Hit</button>
+            <button id="stand-button">Stand</button>
+            <button id="new-game-button">New Game</button>
+        </div>
+
+        <!-- Message display area -->
+        <div id="message"></div>
+    </div>
+
+    <script src="{{ url_for('static', filename='main.js') }}"></script>
+</body>
+</html>

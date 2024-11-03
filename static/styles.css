@@ -1,0 +1,75 @@
+/* Game Container Styles */
+.game-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* Hand Styles */
+.hand {
+    margin-bottom: 30px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+/* Card Display Styles */
+.cards {
+    font-size: 24px;
+    margin: 10px 0;
+    min-height: 36px;
+}
+
+/* Score Display Styles */
+.score {
+    font-size: 18px;
+    color: #444;
+    margin: 5px 0;
+}
+
+/* Result Display Styles */
+.result {
+    font-size: 1.2em;
+    margin-top: 10px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+/* Controls Styles */
+.controls {
+    margin: 20px 0;
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    background-color: #4CAF50;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+/* Message Display Styles */
+#message {
+margin-top: 20px;
+padding: 10px;
+border-radius: 4px;
+min-height: 20px;
+}
